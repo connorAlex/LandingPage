@@ -26,10 +26,11 @@ button{
 .sect1{
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px 250px 85px;
 }
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 45px;
     align-items: center; 
 }
@@ -48,27 +49,32 @@ a{
 }
 .subsect1{
     display:flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    padding: 10px;
-    margin-left: 210px;
+    justify-content: space-between;
+    padding-top: 50px;
+     
 }
 .subleft{
     display:flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    flex: 1 0 0;
+    width: 450px;
     
+}
+.subleft p{
+    margin: 5px;
 }
 .btn1{
     border-color: #3882F6;
 }
 .title{
-    font-size: 35px;
+    font-size: 48px;
+    margin-bottom:0px;
+    
 }
 img{
-    width: 450px;
-    height: auto;
+    width: 475px;
+    height: 250px;
+    align-self: center;
 }
 
 /* Section 2 */
@@ -123,6 +129,7 @@ img{
     background-color: #E5E7EB;
     align-items: center;
     font-weight: lighter;
+    padding: 50px;
 }
 .quote{
     padding-inline: 300px;
